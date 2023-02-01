@@ -1,0 +1,218 @@
+/*HTML*/
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #741952 ;
+}
+
+/*PALETA DE CORES*/
+/*
+.color1 { #741952 };
+.color2 { #fe3174 };
+.color3 { #f1c15d };
+.color4 { #94bb68 };
+.color5 { #09a3ad };
+*/
+/*CABEÇALHO*/
+.cabeçalho {
+    display: flex;
+    position: relative;
+}
+
+/*LOGO*/ 
+.logo {
+    position: relative;
+    width: 100px;
+    left: 100px;
+}
+
+/*MENU*/
+.menu ul {
+    display: flex;
+    position: relative;
+    left: 500px;
+    margin-top: 40px;
+}
+.menu li {
+    margin-left: 100px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: #09a3ad;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.menu a:hover {
+    color: #94bb68;
+}
+
+/*BEM-VINDOS*/
+.bem-vindos {
+    height: 530px;
+    align-self: center;
+    background-image: url(./img/principal.jpg);
+    margin-bottom: 100px;
+}
+.boas-vindas {
+    padding-top: 50px;
+    margin-left: 300px;
+    color: #741952
+}
+
+.boas-vindas h2 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boas-vindas p {
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardapio {
+    display: flex;
+    position: relative;
+    width: 550px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 300px;
+    color: #09a3ad;
+    border: 1px solid #741952;
+    border-radius: 50px;
+    color: #741952;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardapio button {
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+.anuncio {
+   padding: 10px;
+   background-color: #94bb68;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+
+.cardapio img {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.delivery {
+    background-color: #741952;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 70px;
+}
+
+/*PRINCIPAL*/
+.principal {
+    margin-bottom: 200px;
+}
+.preço {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: -28px;
+    right: -90px;
+}
+.tipos-sorvetes ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.tipos-sorvetes .picole, .casquinha {
+    width: 250px;
+    height: 500px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #09a3ad;
+} 
+
+.tipos-sorvetes h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.picole {
+    margin-right: 200px;
+}
+
+.picole h2 {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    color: #741952;
+}
+
+.picole img {
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
+.casquinha p, .picole p {
+    padding-top: 30px;
+} 
+
+.casquinha {
+    position: relative;
+    background-color: #09a3ad;
+    margin-top: 40px;
+}
+
+.casquinha h2 {
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    color: #741952;
+}
+
+.casquinha img {
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+    width: 280px;
+}
+
+/*RODAPE*/
+
+footer {
+    display: flex;
+}
+
+footer p {
+    color: black;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer ul {
+    color: black;
+    position: relative;
+    left: 600px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
